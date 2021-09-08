@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Smartwork@">
+        <meta name="description" content="this is demo">
+        <meta name="keyword" content="demo">
+        <title>demo-4</title> 
+    </head>
+    <body style="background-color: rgb(189, 196, 197)">
+        <header>
+            <nav>
+                <h1>DEMO</h1>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <a href="https://www.google.com" target="_blank">google.com</a> <!-- this is link tag we can
+                    link other website's
+                    and this is absolute URL because we take from online-->
+            </section>
+            <section>
+                <a href="./other websites/.html">Puducherry Website</a>
+                <!-- this link also take to other website's but in this case of relative URL
+                anther html file in same folder or one-level up, two, one-down-->
+            </section>
+            <section>
+                <a href="bikes.jpeg">Bike</a> <!--This is relative URL-->
+            </section>
+            <section>
+                <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/CEE3/production/_118836925_australotitan.png" alt="this is picture of dinosaur" width="25%">
+                <!-- this is absolute URL because it will access from the root directory or fetch the image from internet-->
+            </section>
+            <section>
+                <img src="bikes.jpeg" alt="Super Bikes" width="137.5px" height="91.5px">
+                <!-- this is relative file path because it takes from same folder 
+                and we need to give same aspect ratio of the image so the image
+                looks cool-->
+            </section>
+            <section>
+                <video  src="timers.mp4" autoplay width="500px" poster="bikes.jpeg" controls>this is 1 min timers</video>
+            </section>
+            <section>
+                <iframe height="40%" src="https://www.youtube-nocookie.com/embed/pQN-pnXPaVg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </section>
+            <section>
+                <ul>
+                    <li>apples</li>
+                    <li>lemon</li>
+                    <li>tespoon</li>
+                </ul>
+                <ol>
+                    <li>Smart</li>
+                    <li>Work</li>
+                    <li>@123</li>
+                </ol>
+            </section>
+            <section>
+                <dl>
+                    <dt>Apple</dt>
+                    <dd>- These are red and healthy</dd>
+                </dl>
+            </section>
+            <section>
+                <table>
+                    <thead> <!--It's for the head of the table-->
+                        <caption>Hello World number</caption> <!-- this caption is overall title-->
+                        <tr>
+                            <th>num1</th> <!--This is the column 1 header-->
+                            <th>num2</th> <!--This is the column 2 header-->
+                            <th>num3</th>  <!--This is the column 3 header-->
+                            <th>num4</th>    <!--This is the column 4 header-->
+                        </tr>
+                    </thead>
+                    <tbody>   <!--It's for the body of the table it's act us container-->
+                        <tr> <!--First Row -->
+                            <td colspan="1">ONE</td> <!--First column -->
+                            <td>TWO</td> <!--Second column -->
+                            <td>THREE</td> <!--Third column -->
+                            <td>FOUR</td> <!--Fourth column -->
+                        </tr>
+                        <tr> <!--Second Row-->
+                            <td>1</td> <!--First column -->
+                            <td>2</td> <!--Second column -->
+                            <td>3</td> <!--Third column -->
+                            <td>4</td> <!--Fourth column -->                        
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section>
+                <a style="background-color:aquamarine" href="#">inline1</a> <!--This tag is inline element
+                     because of it's takes only necessary space for the content-->
+                <a style="background-color:aquamarine" href="#">inline2</a>
+                <hr>
+                <p style="background-color:rgb(153, 212, 15)" >blockelement1</p><!--This tag is block
+                    element because of it's take entire width of web page for the content-->
+                <p style="background-color:rgb(11, 204, 69)" >blockelement2</p>
+                <p>blockelement3</p>
+            </section>
+        </main>
+    </body>
+</html>
